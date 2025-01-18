@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.resumeContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    min-height: 100vh;
+}
+
+.blackCard {
+    background-color: rgb(32, 32, 32);
+    min-width: 300px;
+}
+
+.userPic img {
+    min-width: 200px;
+    display: flex;
+    margin: 5px auto;
+}
+
+.userPic,
+.aboutInfo, 
+.skillsInfo {
+    font-family: 'Kanit', sans-serif;
+    margin: 20px 15px;
+}
+
+.aboutInfo h3,
+.skillsInfo h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    font-weight: 200;
+    margin: 10px 0px;
+    letter-spacing: 0.3em;
+}
+
+.aboutInfo p {
+    font-weight: 100;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+}
+
+.skillsInfo p {
+    font-weight: 100;
+    margin: 5px 0px;
+}
+
+.whiteCard {
+    grid-column: span 2;
+    background-color: rgb(240, 238, 238);
+    min-width: 800px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto
+}
+
+.candidate h1 {
+    font-size: 3.5em;
+    color: black;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+}
+
+.candidate hr {
+    width: 80%;
+    margin: -25px auto 20px auto;
+    border-top: 30px solid rgb(231, 228, 54);
+    border-radius: 5px;
+}
+
+.userInfo h4 {
+    text-align: center;
+    color: rgb(138, 136, 136);
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.personXp, .personEd {
+    margin-top: 50px;
+}
+
+.personXp h2,
+.personEd h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin: 10px 30px;
+    letter-spacing: 0.2em;
+    color: black;
+}
+
+.personXp h4,
+.personEd h4 {
+    color: rgb(100, 100, 100);
+    margin: 5px 30px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.personXp p,
+.personEd p {
+    color: rgb(138, 136, 136);
+    margin: 5px 30px;
+}

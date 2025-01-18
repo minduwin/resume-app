@@ -1,0 +1,63 @@
+div.intro {
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+}
+
+.firstIntro {
+    animation: 5s first-slide;
+    font-size: 6em;
+}
+
+.secondIntro {
+    margin-left: 100px;
+    animation: 5s second-slide;
+    font-size: 6em;
+}
+
+.thirdIntro {
+    margin-left: 350px;
+    animation: 5s third-slide;
+    font-size: 6em;
+}
+
+@keyframes first-slide {
+    from {
+        margin-left: -100%;
+        width: 100%;
+    }
+    
+    to {
+        margin: 0px 0px 0px 78.5%;
+        width: 100%;
+    }
+}
+
+@keyframes second-slide {
+    from {
+        margin-left: -100%;
+        width: 100%;
+    }
+    
+    to {
+        margin: 0px 0px 0px 90.4%;
+        width: 100%;
+    }
+}
+
+@keyframes third-slide {
+    from {
+        margin-left: -100%;
+        width: 100%;
+    }
+    
+    to {
+        margin: 0px 0px 0px 99%;
+        width: 100%;
+    }
+}

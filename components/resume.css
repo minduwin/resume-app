@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    min-height: 100vh;
+}
+
+.blockForm {
+    min-width: 500px;
+    margin: 130px 10px;
+}
+
+.buttonsApp {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnSvg {
+    background-color: rgb(92, 91, 91);
+}
+
+.btnSvg img {
+    width: 30px;
+}
+
+.buttonsApp button {
+    margin: 10px;
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.buttonsApp button:hover {
+    border-color: rgb(190, 190, 1);
+}
+
+.buttonsApp button:focus,
+.buttonsApp button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.cards {
+    max-width: 650px;
+}
+
+.personal, .xperience, .education {
+    max-width: 600px;
+}
+
+.skillsAdd {
+    min-width: 400px;
+    margin: 15px 0px;
+}
+
+.personal h3,
+.xperience h3,
+.education h3,
+.skillsAdd h3 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0px;
+}
+
+.personalInput,
+.xpInput,
+.eduInput,
+.skillsInput {
+    margin: 5px 10px;
+}
+
+.personalInput label,
+.xpInput label,
+.eduInput label,
+.skillsInput label {
+    font-size: 1em;
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+.personalInput input,
+.xpInput input,
+.eduInput input,
+.skillsInput input {
+    float: right;
+    margin: 0px 10px;
+    resize: vertical;
+}
+
+.personalText,
+.xpText,
+.eduText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+textarea {
+    margin: 10px 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.dltButton {
+    color: rgb(221, 20, 20);
+    font-size: 1.2em;
+    padding: 8px 15px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.xpButton, .eduButton {
+    display: flex;
+    margin: 10px auto;
+}
+
+.controlBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.submitBtn {
+    margin: 0px 10px;
+}
+
+.blockShow {
+    grid-column: span 2;
+}
